@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 #title-box-wrapper {
     width: 431px;
     height: 28px;
