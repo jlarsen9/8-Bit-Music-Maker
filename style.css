@@ -75,7 +75,6 @@ body {
 #buttons {
     width: 431px;
     height: 18 px;
-    display: block;
     margin: auto;
     background-color: white;
     order: 3;
