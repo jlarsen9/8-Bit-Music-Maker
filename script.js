@@ -32,6 +32,14 @@ for (var i = 1; i <= numRows; i++) {
     createRow(numColumns);
 }
 
+var slider = document.getElementById("myRange");
+var output = document.getElementById("volume-value")
+output.innerHTML = slider.value;
+
+slider.oninput = function () {
+    output.innerHTML = this.value;
+}
+
 
 // function createRow() {
 //     var row = ""
