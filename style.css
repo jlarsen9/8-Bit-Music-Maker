@@ -20,10 +20,6 @@
     float: right;
 }
 
-/* .grey-box:first-child {
-    background: saddlebrown;  
-} */
-
 #note-name-boxes {
     float: left;
     background-color: black;
@@ -46,12 +42,19 @@
     order: 2;
 }
 
-#grey-box button {
+.grid-button-default {
     width: 41px;
     height: 21px;
     background-color: dimgray;
-    margin: 2px 5px; 
-    
+    margin: 2px 5px;     
+}
+
+.row {
+    border: solid 1px black;
+}
+
+.row:nth-child(6n+1) button{
+    background-color: saddlebrown;
 }
 
 .menu {
@@ -87,12 +90,10 @@
 }
 
 #start-button {
-    /* margin-left: 370px; */
     display: inline-block;
 }
 
 #stop-button {
-    /* margin-left: 10px; */
     display: inline-block;
 }
 
