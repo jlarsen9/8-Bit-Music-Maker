@@ -13,20 +13,6 @@ function makeNoteBoxes() {
 }
 
 document.getElementById("note-name-boxes").innerHTML = makeNoteBoxes();
-/*
-<div class="row">
-     <button>
-     <button>
-     <button>
-</div>
-
-vs.
-
-     <button>
-     <button>
-     <button>
-<br />
-*/
 
 function createRow(numButtons) {
     var row = "<div class='row'>"  //this is the start of the row
