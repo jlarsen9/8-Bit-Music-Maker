@@ -1,4 +1,4 @@
-body {
+.page-wrapper {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -9,27 +9,31 @@ body {
     height: 500px;
     margin: auto;
     float: left;
-    /* margin-left: 300px; */
-    background-color: white;
+    background-color: black;
     display: flex;
 }
 
-#grey-box {
-    background-color: lightgray;
+.grey-box {
+    background-color: black;
     width: 431px;
     height: 338px;
     float: right;
 }
 
+/* .grey-box:first-child {
+    background: saddlebrown;  
+} */
+
 #note-name-boxes {
     float: left;
+    background-color: black;
 }
 
 #note-name-boxes div {
     display: left;
     width: 41px;
     height: 20px;
-    background-color: lightgray; 
+    background-color: plum; 
     text-align: center;
     border-style: solid;
     border-color: white;
@@ -54,14 +58,14 @@ body {
     display: flex;
     flex: 1; 
     flex-direction: column;
+    width: 100px;
 }
 
-#title-box-wrapper {
-    width: 431px;
+.title-box-wrapper {
+    width: 100px;
     height: 28px;
     background-color: black;
     margin:auto;
-    /* margin-left: 370px;  */
     order: 2;
 }
 
@@ -73,10 +77,10 @@ body {
 }
 
 #buttons {
-    width: 431px;
+    width: 100px;
     height: 18 px;
     margin: auto;
-    background-color: white;
+    background-color:black;
     order: 3;
     display: flex;
     flex-direction: column;
@@ -103,90 +107,3 @@ body {
     width:10%;
     height: 25px;
 }
-
-
-
-/* #big-Grid-Button {
-    height: 18px;
-    width: 41px;
-    background-color: darkgray;
-    padding: 10px 5px;
-} */
-
-
-
-/* .note-boxes {
-    display: left;
-    width: 41px;
-    height: 20px;
-    background-color: lightgray; 
-} */
-
-
-/* * {
-    font-size: 100px;
-}
-
-body {
-    background-color:rgb(56,56,56);
-}
-
-#title {
-    font-size: 160px;
-    background-color: mediumorchid;
-}
-
-#text-box {
-    background-color:white;
-    color: #696969;
-    width: 530px;
-    height: 128px;
-    margin: auto;
-    font-size: 130px; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    margin-top: 200px;
-    margin-bottom: 70px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-#jenny-grid-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-#jenny-grid {
-    display: inline-block;
-}
-
-#play-button {
-    width: 530px;
-    height: 150px;
-    text-align: center;
-    display: block;
-    margin: 25 auto;
-    background-color: rgb(90,181, 44);
-    color: white;
-}
-
-td {
-    font-size: 100px;
-}
-
-button {
-    color: firebrick;
-    border-radius: 30px;
-    text-transform: uppercase;
-    width: 150px;
-    height: 150px;
-    background-color: white;
-    border-color:black;
-    margin: 25px;
-    font-size: 130px; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-}
-
-button:active {
-    background: red;
-}
- */
