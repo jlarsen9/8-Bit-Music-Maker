@@ -15,13 +15,13 @@ function makeNoteBoxes() {
 document.getElementById("note-name-boxes").innerHTML = makeNoteBoxes();
 
 function createRow(numButtons) {
-    var row = "<div class='row'>"  //this is the start of the row
+    var row = "<div class='row'>"
     for (var i = 1; i <= numButtons; i++) {
         var button = "<button class='grid-button-default'>" + "</button>"
         row = row + button;
     }
     var greyBoxGrid = document.getElementById("grey-box")
-    greyBoxGrid.innerHTML += row + "<br/>" + "</div>" //this is the end
+    greyBoxGrid.innerHTML += row + "<br/>" + "</div>"
 }
 
 var numRows = 13
